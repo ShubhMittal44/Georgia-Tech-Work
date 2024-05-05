@@ -2,7 +2,9 @@
 
 This repository contains a Retrieval-Augmented Generation application designed to interpret SEC-EDGAR findings efficiently. Using Large Language Models technologies, it extracts, processes, and analyzes financial documents to provide actionable insights.
 
-## Tech Stack :page_facing_up:
+**LOCAL DEMO OF APP :calling:** - 
+
+## Tech Stack Used :page_facing_up:
 - **Python**: The core programming language powering the application.
 - **Gemini-pro API**: Interfaces with LLMs to implement RAG for insightful response generation.
 - **Seaborn (sns) plots**: Enhances data visualization, providing clear, insightful charts.
