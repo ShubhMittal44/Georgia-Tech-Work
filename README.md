@@ -20,7 +20,15 @@ This repository contains a Retrieval-Augmented Generation application designed t
 
 ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/4877d4e1-01f8-4272-ad2d-c3b8ac83b63f)
 
+## **Example Outputs 📊**
 
+1. **Segment Revenue Analysis**  
+   ![Segment Revenue Graph] ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/90ea123a-4ad2-4879-8382-80f8b31f271a) ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/d4881f70-6c0b-4e83-b182-c9e60503f3fb)
+   See how IBM's revenues change across different business segments.
+
+2. **Geographical Market Analysis**  
+   ![Market Analysis Graph](https://example.com/market_analysis.png)  
+   Explore Amazon's market share across global regions and adapt strategies accordingly.
 
 
 ## Getting Started :key:
