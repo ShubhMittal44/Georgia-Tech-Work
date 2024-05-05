@@ -1,0 +1,7 @@
+tqdm
+plotly
+chromadb
+streamlit
+google.generativeai
+scikit-learn
+
