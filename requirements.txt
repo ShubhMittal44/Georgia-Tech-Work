@@ -4,4 +4,4 @@ chromadb
 streamlit
 google.generativeai
 scikit-learn
-
+llama_index
