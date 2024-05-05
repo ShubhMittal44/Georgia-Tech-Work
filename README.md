@@ -24,12 +24,21 @@ This repository contains a Retrieval-Augmented Generation application designed t
 
 1. **Segment Revenue Analysis for IBM**
    **Prompt:** *How do the revenues of IBM's different segments (Technology, Personal Systems, Global Financing) compare, and what are their growth trends over the years 2019, 2020, and 2021?*
-  ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/90ea123a-4ad2-4879-8382-80f8b31f271a) ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/d4881f70-6c0b-4e83-b182-c9e60503f3fb)
-   See how IBM's revenues change across different business segments. By creating a bar chart or stacked bar graph that compares revenues across segments (Technology, Personal Systems, Global Financing, etc.) over several fiscal years, stakeholders can visually identify which segments are driving growth and which are stagnating or declining. This visualization helps management identify potential opportunities or challenges.
+  ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/90ea123a-4ad2-4879-8382-80f8b31f271a) ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/9e1ae0f2-0c03-43b3-bd7d-4a4bfbece238)
 
-2. **Geographical Market Analysis**  
-   ![Market Analysis Graph](https://example.com/market_analysis.png)  
-   Explore Amazon's market share across global regions and adapt strategies accordingly.
+   See how IBM's revenues change across different business segments. By creating a bar chart or stacked bar graph that compares revenues across segments (Technology, Personal Systems, Global Financing, etc.) over several fiscal years, stakeholders can visually identify which segments are driving growth and which are stagnating or declining. This visualization helps management identify potential opportunities or challenges. For example, the "Technology" and "Personal Systems" segments show steady growth, which management can leverage to expand investments, while "Global Financing" remains comparatively flat.
+
+2. **R&D Investment Trends for NVIDIA**
+   **Prompt:** *How does NVIDIA's R&D spending correlate with revenue generation across the years 2019, 2020, and the year 2021? Give a proper tabular answer.*
+   ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/02296a1e-332c-44ce-9e6a-02af08bf2b6b)
+ 
+   The consistent increase in R&D spending reflects NVIDIA's focus on innovation and developing competitive technology. Despite a rise in R&D expenses, overall revenue has increased, indicating that investments are translating into improved products and market performance.
+
+3. **Geographic Market Share Analysis for AMAZON**
+   **Prompt:** *How does Amazon's market share vary across different geographic regions, and what does it indicate about regional strategies? Give the required visualizations.*
+   ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/ae6bb115-5c57-4939-a3d6-c5918d267a8b)
+
+   Amazon's largest market, North America, continues to generate significant revenue growth due to strategic marketing, a strong logistics network, and Prime membership expansion. Europe exhibits steady growth but at a slower pace, emphasizing the need for improved localization and compliance with regional regulations. Meanwhile, Asia and other regions present rising growth potential, which can be harnessed through increased investments in logistics, cloud computing, and strategic partnerships tailored to local markets.
 
 
 ## Getting Started :key:
