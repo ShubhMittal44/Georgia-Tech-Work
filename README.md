@@ -18,7 +18,8 @@ This repository contains a Retrieval-Augmented Generation application designed t
 5. **Deploy**: Makes the application available for real-time use via Streamlit.
 6. **Interpret and Visualize**: Presents data in a clear, easy-to-understand format using Seaborn.
 
-![Uploading image.png…]()
+![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/4877d4e1-01f8-4272-ad2d-c3b8ac83b63f)
+
 
 
 
