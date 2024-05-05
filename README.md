@@ -5,8 +5,8 @@ This repository contains a Retrieval-Augmented Generation application designed t
 **LOCAL DEMO OF APP :calling:** - https://drive.google.com/file/d/1We6an1R797MVolu2NFSzFG2u9j2faNEf/view?usp=sharing
 
 ## Tech Stack Used :page_facing_up:
-- **Python**: The core programming language powering the application.
-- **Gemini-pro API**: Interfaces with LLMs to implement RAG for insightful response generation.
+- **Python Programming**: The core programming language powering the application.
+- **Gemini-pro LLM API**: Interfaces with LLMs to implement RAG for insightful response generation.
 - **Seaborn (sns) plots**: Enhances data visualization, providing clear, insightful charts.
 - **Streamlit**: Simplifies application deployment and provides an interactive user interface.
 
