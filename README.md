@@ -16,6 +16,6 @@ This repository contains a Retrieval-Augmented Generation application designed t
 5. **Deploy**: Makes the application available for real-time use via Streamlit.
 6. **Interpret and Visualize**: Presents data in a clear, easy-to-understand format using Seaborn.
 
-## Getting Started
+## Getting Started :key:
 To get started, clone the repository and follow the installation instructions provided. Make sure you have the required dependencies installed for smooth execution.
 
