@@ -1,3 +1,5 @@
+#This code was inspired from the Chroma Gemini embeddings official page https://docs.trychroma.com/embeddings/google-gemini
+
 import argparse
 import os
 from typing import List
