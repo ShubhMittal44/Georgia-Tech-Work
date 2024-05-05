@@ -24,5 +24,5 @@ This repository contains a Retrieval-Augmented Generation application designed t
 
 
 ## Getting Started :key:
-To get started, clone the repository and follow the installation instructions provided. Make sure you have the required dependencies installed for smooth execution.
+To get started, clone the repository. Make sure you have the required dependencies installed for smooth execution.
 
