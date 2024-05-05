@@ -22,9 +22,10 @@ This repository contains a Retrieval-Augmented Generation application designed t
 
 ## **Example Outputs 📊**
 
-1. **Segment Revenue Analysis**  
-   ![Segment Revenue Graph] ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/90ea123a-4ad2-4879-8382-80f8b31f271a) ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/d4881f70-6c0b-4e83-b182-c9e60503f3fb)
-   See how IBM's revenues change across different business segments.
+1. **Segment Revenue Analysis for IBM**
+   **Prompt:** *How do the revenues of IBM's different segments (Technology, Personal Systems, Global Financing) compare, and what are their growth trends over the years 2019, 2020, and 2021?*
+  ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/90ea123a-4ad2-4879-8382-80f8b31f271a) ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/d4881f70-6c0b-4e83-b182-c9e60503f3fb)
+   See how IBM's revenues change across different business segments. By creating a bar chart or stacked bar graph that compares revenues across segments (Technology, Personal Systems, Global Financing, etc.) over several fiscal years, stakeholders can visually identify which segments are driving growth and which are stagnating or declining. This visualization helps management identify potential opportunities or challenges.
 
 2. **Geographical Market Analysis**  
    ![Market Analysis Graph](https://example.com/market_analysis.png)  
