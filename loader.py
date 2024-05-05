@@ -1,15 +1,17 @@
+#This code was inspired from the Chroma Gemini embeddings official page https://docs.trychroma.com/embeddings/google-gemini
+
 import os
 import argparse
 from tqdm import tqdm
 import chromadb
-from chromadb.utils import embedding_functions
 import google.generativeai as genai
 import sys
+from chromadb.utils import embedding_functions
 
-os.environ["GOOGLE_API_KEY"] = ""
+os.environ[GEMINI_API"] = ""
 
-def split_large_text(text, max_length=9500):
-    """Divide large texts into smaller parts without exceeding max_length."""
+def split_large_text(text, max_length=5000):
+    """DATA CHUNKING TO 5000 length."""
     parts = []
     while len(text) > max_length:
         split_point = text.rfind(' ', 0, max_length)
@@ -31,7 +33,7 @@ def load_documents(directory="documents", collection_name="documents_collection"
         with open(f"{directory}/{filename}", "r", encoding='utf-8') as file:
             for line_num, line in enumerate(tqdm(file.readlines(), desc=f"Reading {filename}"), 1):
                 line = line.strip()
-                if sys.getsizeof(line) > 9500:
+                if sys.getsizeof(line) > 5000:
                     line = split_large_text(line)
                 if not line:
                     continue
@@ -39,7 +41,7 @@ def load_documents(directory="documents", collection_name="documents_collection"
                 metadata.append({"filename": filename, "line_number": line_num})
 
     client = chromadb.PersistentClient(path=persist_dir)
-    embedding_function = embedding_functions.GoogleGenerativeAiEmbeddingFunction(api_key=os.environ["GOOGLE_API_KEY"])
+    embedding_function = embedding_functions.GoogleGenerativeAiEmbeddingFunction(api_key=os.environ[GEMINI_API"])
     collection = client.get_or_create_collection(name=collection_name, embedding_function=embedding_function)
 
     count = collection.count()
