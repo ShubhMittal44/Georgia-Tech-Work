@@ -11,7 +11,7 @@ sns.set_theme(style="darkgrid")
 
 # Visualization functions
 def bar_chart(df, x_field, y_field):
-    """Generate a bar chart using seaborn."""
+    """Create a bar chart using seaborn."""
     try:
         plt.figure(figsize=(10, 6))
         sns.barplot(data=df, x=x_field, y=y_field)
@@ -49,7 +49,6 @@ def heatmap(df, x_field, y_field):
     except Exception as error:
         st.error(f"Heatmap creation error: {error}")
 
-
 def violin_plot(df, x_field, y_field):
     """Generate a violin plot using seaborn."""
     try:
@@ -68,9 +67,6 @@ def response_to_dataframe(json_data):
     """Convert JSON response to DataFrame while ensuring appropriate keys."""
     try:
         keys = list(json_data.keys())
-        if len(keys) < 2:
-            st.error("JSON must have at least two fields.")
-            return None, None, None
 
         x_field = keys[0]
         y_field = keys[1]
