@@ -20,6 +20,25 @@ This repository contains a Retrieval-Augmented Generation application designed t
 
 ![image](https://github.com/ShubhMittal44/Georgia-Tech-Work/assets/76169253/4877d4e1-01f8-4272-ad2d-c3b8ac83b63f)
 
+## **Backend Workflow 📂**
+
+1. **Data Acquisition:**
+   - **Navigate to `Data Integration`:** Start by extracting raw data from SEC 10-K filings.
+   - **Run `Data Extraction.py`:** This script processes and aggregates essential data.
+
+2. **Normalization and Cleaning:**
+   - **Run `zip_to_text_report_extractor.py`:** Normalize and convert data into a structured, ready-to-analyze format.
+
+3. **Create Embeddings:**
+   - **Execute `loader.py`:** Segment and generate embeddings for faster retrieval.
+
+4. **Query with Gemini:**
+   - **Run `app_main.py`:** Query and analyze the data using the Gemini model.
+
+5. **Visualization:**
+   - **Execute `visualizer.py`:** Load visualizations and interactively explore the results.
+
+
 ## **Example Outputs 📊**
 
 1. **Segment Revenue Analysis for IBM**
